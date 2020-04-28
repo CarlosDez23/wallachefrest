@@ -23,11 +23,6 @@ public class UsuarioController {
     @Autowired
     private UsuarioDao daoUsuario;
 
-    @RequestMapping(value="hola", method=RequestMethod.GET)
-    public String prueba() {
-        return "Hola prueba correcta";
-    }
-
     /**
      * Método para insertar un usuario. Lo utilizaremos para registrar un usuairo
      * @param usuario
